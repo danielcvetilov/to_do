@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/caption_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:drawableStart="@drawable/ic_info"
+        android:drawablePadding="@dimen/item_padding"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-medium"
+        android:maxLines="1"
+        android:padding="@dimen/item_padding"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="@dimen/primary_text" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorDivider" />
+
+    <TextView
+        android:id="@+id/rename_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_edit_black"
+        android:drawablePadding="@dimen/item_padding"
+        android:fontFamily="open-sans-medium"
+        android:foreground="?selectableItemBackground"
+        android:gravity="center_vertical"
+        android:padding="@dimen/item_padding"
+        android:text="@string/bottom_sheet_rename"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="@dimen/primary_text" />
+
+    <TextView
+        android:id="@+id/delete_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_delete_black"
+        android:drawablePadding="@dimen/item_padding"
+        android:fontFamily="open-sans-medium"
+        android:foreground="?selectableItemBackground"
+        android:gravity="center_vertical"
+        android:padding="@dimen/item_padding"
+        android:text="@string/bottom_sheet_delete"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="@dimen/primary_text" />
+
+</LinearLayout>

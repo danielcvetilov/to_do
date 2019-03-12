@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name" translatable="false">To Do</string>
+
+    <string name="text_input_dialog_enter_name">Enter name</string>
+    <string name="text_input_dialog_cancel">Cancel</string>
+    <string name="text_input_dialog_ok">OK</string>
+
+    <string name="bottom_sheet_rename">Rename</string>
+    <string name="bottom_sheet_delete">Delete</string>
+
+    <string name="user_confirmation_dialog_yes">Yes</string>
+    <string name="user_confirmation_dialog_no">No</string>
+    <string name="user_confirmation_dialog_are_you_sure">Are You Sure?</string>
+
+    <string name="task_groups_progress_pattern">Progress: %d/%d</string>
+    <string name="task_groups_message_delete">All tasks in this group will be deleted.</string>
+
+    <string name="tasks_title">Tasks</string>
+    <string name="tasks_task_completed_successfully">Task was completed successfully</string>
+    <string name="tasks_no_selected_task_group">No task group has been selected.</string>
+    <string name="tasks_message_delete">Selected task will be deleted and you won\'t be able to review it.</string>
+
+    <string name="content_description_options_menu_button">Options Menu Button</string>
+
+    <string name="get_started">Get Started</string>
+
+    <string name="on_boarding_organize_your_tasks">Organize Your Tasks</string>
+    <string name="on_boarding_organize_your_tasks_description">Organize your tasks into folders, drag and drop them to arrange.</string>
+
+    <string name="on_boarding_track_your_tasks">Track Your Tasks</string>
+    <string name="on_boarding_track_your_tasks_description">Keep track of your tasks by creating lists.</string>
+
+    <string name="on_boarding_widget">Widget</string>
+    <string name="on_boarding_widget_description">Don\'t miss anything important.\nSee your tasks at a glance even on your home screen.</string>
+    <string name="task_groups_content_description_icon">Task Group Icon</string>
+    <string name="on_boarding_content_description_image">Preview Image</string>
+    <string name="widget_content_description_open_app_icon">Open App</string>
+    <string name="widget_content_description_icon">Icon</string>
+</resources>
